@@ -1,0 +1,201 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background-color: beige;
+}
+
+body::-webkit-scrollbar {
+  display: none; 
+}
+
+.kotakNav{
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: maroon;
+}
+
+.Navigasi{
+    display: flex;
+    gap: 100px;
+}
+
+.Navigasi a{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+.kotakFoto{
+    border: 2px;
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 35px;
+    background-color: maroon;
+    border-radius: 8px;
+}
+
+.bundar1{
+    margin: 30px;
+    border-radius: 50%;
+    width: 235px;
+    height: 235px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.fotoBundar{
+    border-radius: 50%;
+    width: 185px; height: 185px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.kotakProfil{
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    margin: 30px;
+    width: 235px;
+    height: 235px;
+    display: flex;
+    text-align: center;
+}
+
+.kotakProfil p{
+    font-family: sans-serif;
+}
+
+.jarakInner{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.innercontainer1, .innercontainer2{
+    display: flex;
+    gap: 15px;
+}
+
+.kotak1, .kotak2, .kotak3, .kotak4{
+    border-radius: 8px;
+    background-color: maroon;
+    padding: 25px;
+    width: 346px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.kotakJudul1, .kotakJudul2, .kotakJudul3, .kotakJudul4{
+    border-radius: 12px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotakYapping1, .kotakYapping2, .kotakYapping3, .kotakYapping4{
+    border-radius: 8px;
+    margin-top: 12px;
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotakJudul1 b, .kotakJudul2 b, .kotakJudul3 b, .kotakJudul4 b{
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;    
+}
+
+.kotakYapping1 p, .kotakYapping2 p, .kotakYapping3 p, .kotakYapping4 p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.containerList1, .containerList2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 5px;
+}
+
+.kotakList1, .kotakList2, .kotakList3, .kotakList4, .kotakList5{
+    border-radius: 8px;
+    width: 250px;
+    height: 35px;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotakList1 p, .kotakList2 p, .kotakList3 p, .kotakList4 p, .kotakList5 p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.list1, .list2, .list3{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.kotakFooter{
+    border: 2px white;
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    padding: 0;
+    background-color: maroon;
+}
+
+.kotakFooter b{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+

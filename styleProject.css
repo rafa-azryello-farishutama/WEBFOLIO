@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background-color: beige;
+}
+
+body::-webkit-scrollbar {
+  display: none; 
+}
+
+.kotakNav{
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: maroon;
+}
+
+.Navigasi{
+    display: flex;
+    gap: 100px;
+}
+
+.Navigasi a{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: white;
+}
+
+.maincontainer{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.dummy{
+    width: 210px;
+    height: auto;
+}
+
+.kotak1, .kotak2{
+    border: 0px;
+    width: 200px;
+    height: 180px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.kotak1 b, .kotak2 b{
+    font-family: sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.tombol{
+    border-radius: 8px;
+    width: 80px;
+    height: 25px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotakFooter{
+    border: 2px white;
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 168px;
+    padding: 0;
+    background-color: maroon;
+}
+
+.kotakFooter b{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
